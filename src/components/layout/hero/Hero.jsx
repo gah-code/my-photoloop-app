@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroImg from '../../../assets/main-header-background.png';
+import ImgOne from '../../../assets/img-one.jpg';
 import { Button } from '../../buttons/Button.styles.js';
 
 const Hero = () => {
@@ -19,12 +19,56 @@ const Hero = () => {
             Learn more &darr;
           </Button>
         </div>
-        <div className='hero-img-box'>
-          {/* <img
+        <div className='grid-gallery'>
+          <img
+            width='230'
+            height='200'
             className='hero-img'
             alt='Summer family photography highlights'
-            src={HeroImg}
-          /> */}
+            src={ImgOne}
+          />
+          <img
+            className='hero-img'
+            alt='Summer family photography highlights'
+            src={ImgOne}
+          />
+          <img
+            width='230'
+            height='200'
+            className='hero-img'
+            alt='Summer family photography highlights'
+            src={ImgOne}
+          />{' '}
+          <img
+            className='hero-img'
+            alt='Summer family photography highlights'
+            src={ImgOne}
+          />
+          <img
+            className='hero-img'
+            alt='Summer family photography highlights'
+            src={ImgOne}
+          />
+          <img
+            className='hero-img'
+            alt='Summer family photography highlights'
+            src={ImgOne}
+          />
+          <img
+            className='hero-img'
+            alt='Summer family photography highlights'
+            src={ImgOne}
+          />
+          <img
+            className='hero-img'
+            alt='Summer family photography highlights'
+            src={ImgOne}
+          />
+          <img
+            className='hero-img'
+            alt='Summer family photography highlights'
+            src={ImgOne}
+          />
         </div>
       </div>
     </section>

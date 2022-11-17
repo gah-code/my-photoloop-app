@@ -132,14 +132,18 @@ textarea {
 }
 
 .heading-primary {
-  // text-transform: uppercase;
+  ${'' /* text-transform: uppercase; */}
   font-weight: 700;
   font-size: 5.5rem;
   line-height: 1.05;
   letter-spacing: -0.5px;
   margin-bottom: 3.2rem;
-  text-transform: capitalize;
+  text-transform: capitalize; 
   color: var(--color-primary);
+
+  box-shadow: 0 1.5rem 4rem rgba(#333, 0.7);
+
+  transition: all 0.2s;
 }
 
 .heading-secondary {
