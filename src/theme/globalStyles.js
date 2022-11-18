@@ -140,6 +140,7 @@ textarea {
   margin-bottom: 3.2rem;
   text-transform: capitalize; 
   color: var(--color-primary);
+  z-index:10;
 
   box-shadow: 0 1.5rem 4rem rgba(#333, 0.7);
 
