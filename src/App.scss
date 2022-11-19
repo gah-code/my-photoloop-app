@@ -7,6 +7,20 @@
   padding: 0 3.2rem;
 }
 
+.container-flex {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  padding: 0 3.2rem;
+  justify-content: center;
+  gap: 30%;
+}
+
+.item {
+  background-color: burlywood;
+  padding: 2rem;
+}
+
 .grid {
   display: grid;
   column-gap: 6.4rem;
@@ -36,4 +50,21 @@
   text-transform: uppercase;
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
+}
+
+.section {
+  padding: 9.6rem 0;
+  background-color: rgb(164, 206, 164);
+}
+
+.step-number {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
+}
+
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
 }

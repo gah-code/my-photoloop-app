@@ -151,6 +151,7 @@ textarea {
   font-size: 4.5rem;
   font-weight: 400;
   line-height: 1.2;
+  padding-bottom: 2.5rem;
 }`;
 
 export default GlobalStyle;
