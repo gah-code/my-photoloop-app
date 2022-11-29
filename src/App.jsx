@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import GlobalStyle from './theme/globalStyles';
 import Hero from './components/layout/hero/Hero';
 import NavBar from './components/layout/navigation/NavBar';
+import IconOne from './assets/icons/Wedding-Expanded-Outline-Individual_Camera.png';
 import './App.scss';
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <Hero />
       <section className='section'>
         <div className='container-flex'>
-          <div className='item'>icon</div>
+          <div className='item'>service card</div>
           <div className='item'>icon</div>
           <div className='item'>icon</div>
         </div>

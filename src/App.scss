@@ -17,8 +17,13 @@
 }
 
 .item {
-  background-color: burlywood;
-  padding: 2rem;
+  // background-color: burlywood;
+  padding: 1rem;
+}
+
+.item svg {
+  width: 200px;
+  height: 200px;
 }
 
 .grid {
