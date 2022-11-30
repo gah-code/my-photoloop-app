@@ -2,7 +2,11 @@ import React, { Fragment } from 'react';
 import GlobalStyle from './theme/globalStyles';
 import Hero from './components/layout/hero/Hero';
 import NavBar from './components/layout/navigation/NavBar';
+
 import IconOne from './assets/icons/Wedding-Expanded-Outline-Individual_Camera.png';
+import LifeTouch from './assets/life-touch.png';
+import Gilroy from './assets/logo-gilroy-gardens.png';
+import GeorgeStreet from './assets/george-street.png';
 import './App.scss';
 
 function App() {
@@ -13,9 +17,15 @@ function App() {
       <Hero />
       <section className='section'>
         <div className='container-flex'>
-          <div className='item'>service card</div>
-          <div className='item'>icon</div>
-          <div className='item'>icon</div>
+          <div className='item'>
+            <img src={LifeTouch} alt='' />
+          </div>
+          <div className='item'>
+            <img src={Gilroy} alt='' />
+          </div>
+          <div className='item'>
+            <img src={GeorgeStreet} alt='' />
+          </div>
         </div>
       </section>
       <section className='section'>

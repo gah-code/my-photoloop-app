@@ -13,17 +13,21 @@
   display: flex;
   padding: 0 3.2rem;
   justify-content: center;
-  gap: 30%;
+  gap: 12%;
 }
 
 .item {
   // background-color: burlywood;
-  padding: 1rem;
+  padding: 0 1rem;
 }
 
-.item svg {
+.item img {
   width: 200px;
-  height: 200px;
+  height: auto;
+}
+
+.item:last-child {
+  padding-top: 2rem;
 }
 
 .grid {
