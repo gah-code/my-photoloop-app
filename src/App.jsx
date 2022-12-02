@@ -5,7 +5,7 @@ import NavBar from './components/layout/navigation/NavBar';
 
 import IconOne from './assets/icons/Wedding-Expanded-Outline-Individual_Camera.png';
 import LifeTouch from './assets/life-touch.png';
-import Gilroy from './assets/logo-gilroy-gardens.png';
+import Gilroy from './assets/gilroy-gardens-logo.png';
 import GeorgeStreet from './assets/george-street.png';
 import './App.scss';
 
@@ -15,8 +15,18 @@ function App() {
       <GlobalStyle />
       <NavBar />
       <Hero />
-      <section className='section'>
-        <div className='container-flex'>
+
+      <section className='section-companies'>
+        <div className='container'>
+          <span className='subheading'>
+            mom-and-pop start-ups industry non-profit
+          </span>
+          <h2 className='heading-secondary--center'>
+            Our photographers work with a wide variety of companies
+          </h2>
+        </div>
+
+        <div className='container grid grid--3-cols'>
           <div className='item'>
             <img src={LifeTouch} alt='' />
           </div>

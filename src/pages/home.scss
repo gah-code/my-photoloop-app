@@ -83,7 +83,7 @@ header {
   grid-column: 1 / span 2;
   grid-row: 1 / span 1;
 
-  box-shadow: 0 1.5rem 4rem rgba(#333, 0.4);
+  box-shadow: 0 1.5rem 4rem rgba(#000, 0.15);
   border-radius: 2px;
   z-index: 10;
   transition: all 0.2s;
@@ -97,6 +97,7 @@ header {
 .grid-gallery img:nth-of-type(3) {
   grid-column: 2;
   grid-row: 2 / span 2;
+  box-shadow: 0 1.5rem 4rem rgba(#000, 0.15);
 }
 
 .grid-gallery img:nth-of-type(4) {
@@ -113,6 +114,7 @@ header {
 .grid-gallery img:nth-of-type(5) {
   grid-column: 4 / span 2;
   grid-row: 1 / span 2;
+  box-shadow: 0 1.5rem 4rem rgba(#000, 0.15);
 }
 
 .grid-gallery img:nth-of-type(6) {
@@ -128,6 +130,7 @@ header {
   border-radius: 2px;
   z-index: 10;
   transition: all 0.2s;
+  box-shadow: 0 1.5rem 4rem rgba(#000, 0.15);
 }
 
 // .grid-gallery img:nth-of-type(8) {
@@ -194,4 +197,40 @@ header {
 
 .icon-mobile-nav[name='close-outline'] {
   display: none;
+}
+
+/**************************/
+/* SECTION COMPANIES */
+/**************************/
+
+.section-companies {
+  padding: 9.6rem 0;
+  background-color: #f7f7f7;
+
+  align-items: center;
+  justify-content: center;
+
+  span {
+    text-align: center;
+    color: var(--color-secondary);
+  }
+
+  span:hover,
+  span:active {
+    color: var(--color-background-shade);
+  }
+}
+
+.item {
+  display: grid;
+  padding: 14rem 3.5rem;
+}
+
+.item img {
+  width: 200px;
+  height: auto;
+}
+
+.item:last-child {
+  padding-top: 14rem;
 }

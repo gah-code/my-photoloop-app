@@ -7,29 +7,6 @@
   padding: 0 3.2rem;
 }
 
-.container-flex {
-  max-width: 120rem;
-  margin: 0 auto;
-  display: flex;
-  padding: 0 3.2rem;
-  justify-content: center;
-  gap: 12%;
-}
-
-.item {
-  // background-color: burlywood;
-  padding: 0 1rem;
-}
-
-.item img {
-  width: 200px;
-  height: auto;
-}
-
-.item:last-child {
-  padding-top: 2rem;
-}
-
 .grid {
   display: grid;
   column-gap: 6.4rem;
@@ -51,6 +28,10 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--center-v {
+  align-items: center;
+}
+
 .subheading {
   display: block;
   font-size: 1.6rem;
@@ -59,11 +40,6 @@
   text-transform: uppercase;
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
-}
-
-.section {
-  padding: 9.6rem 0;
-  background-color: rgb(164, 206, 164);
 }
 
 .step-number {

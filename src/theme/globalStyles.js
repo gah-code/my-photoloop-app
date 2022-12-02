@@ -113,7 +113,8 @@ textarea {
  --color-background-shade: #fceec2;
  --color-primary: #263649;
 
- --color-secondary: #fbdba2;
+ --color-secondary: #84a598;
+
 
  --color-btn: #fd736c;
  --color-btn-hover: #fd817b;
@@ -152,6 +153,13 @@ textarea {
   font-weight: 400;
   line-height: 1.2;
   padding-bottom: 2.5rem;
-}`;
+
+  &--center { color: var(--color-primary); font-size: 4rem; text-align: center;}
+}
+//// Helpers
+
+
+
+`;
 
 export default GlobalStyle;
