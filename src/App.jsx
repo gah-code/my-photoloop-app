@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import './styles/style.css';
 import GlobalStyle from './theme/globalStyles';
 import Hero from './components/layout/hero/Hero';
 import NavBar from './components/layout/navigation/NavBar';

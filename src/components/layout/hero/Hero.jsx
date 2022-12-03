@@ -17,9 +17,8 @@ const Hero = () => {
             Start today and save time scheduling services for your most
             cherished
           </p>
-          <Button href='cta'>Book Today</Button>
-          <Button primary href='#how'>
-            Learn more &darr;
+          <Button primary href='cta'>
+            Book Today
           </Button>
         </div>
         <div className='grid-gallery'>

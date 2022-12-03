@@ -9,7 +9,6 @@ header {
 }
 
 .section-hero {
-  background-color: var(--color-background-shade);
   padding: 9.6rem 0;
 }
 
@@ -52,9 +51,9 @@ header {
 }
 
 .hero-description {
-  font-size: 2rem;
-  line-height: 1.6;
-  margin-bottom: 4.8rem;
+  font-size: 1.8rem;
+  line-height: 1.7;
+  margin-bottom: var(--default-font-size);
 }
 
 .grid-gallery {
@@ -71,14 +70,15 @@ header {
   right: 62%;
   width: 79vw;
   z-index: 0;
+
+  img {
+    border-radius: 2px;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+  }
 }
 
-.grid-gallery img {
-  border-radius: 2px;
-  height: auto;
-  width: 100%;
-  overflow: hidden;
-}
 .grid-gallery img:nth-of-type(1) {
   grid-column: 1 / span 2;
   grid-row: 1 / span 1;
@@ -212,12 +212,6 @@ header {
 
   span {
     text-align: center;
-    color: var(--color-secondary);
-  }
-
-  span:hover,
-  span:active {
-    color: var(--color-background-shade);
   }
 }
 
