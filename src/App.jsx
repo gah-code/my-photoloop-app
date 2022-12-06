@@ -3,6 +3,7 @@ import './styles/style.css';
 import GlobalStyle from './theme/globalStyles';
 import Hero from './components/layout/hero/Hero';
 import NavBar from './components/layout/navigation/NavBar';
+import Packages from './components/layout/packages/Packages';
 
 import IconOne from './assets/icons/Wedding-Expanded-Outline-Individual_Camera.png';
 import LifeTouch from './assets/life-touch.png';
@@ -27,7 +28,7 @@ function App() {
           </h2>
         </div>
 
-        <div className='container grid grid--3-cols'>
+        <div className='container grid grid__3-cols'>
           <div className='item'>
             <img src={LifeTouch} alt='' />
           </div>
@@ -39,13 +40,17 @@ function App() {
           </div>
         </div>
       </section>
+
+      <section className='container'>
+        <Packages />
+      </section>
       <section className='section'>
         <div className='container'>
           <span className='subheading'>Services</span>
           <h2 className='heading-secondary'>Crafted sessions</h2>
         </div>
 
-        <div className='container grid grid--2-cols'>
+        <div className='container grid grid__2-cols'>
           <div className='step-text-box'>
             {/* <p className='step-number'>01</p> */}
             <h3 className='heading-tertiary'>
