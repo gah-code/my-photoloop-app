@@ -11,9 +11,20 @@ export const Button = styled.button`
     border: none;
     cursor: pointer;
     font-family: inherit;
-    transition: all 0.3s;
-    background: ${(props) => (props.primary ? '#84a598' : 'white')};
+
+    background: ${(props) => (props.primary ? '#223142' : 'white')};
     color: ${(props) => (props.primary ? 'white' : '#354c44')};
+    transition: all 0.3s;
+
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 1rem 2rem rgba(#222, 0.2);
+    }
+    &:active {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+      background: #515e6d;
+    }
   }
 `;
 

@@ -14,8 +14,6 @@ const GlobalStyle = createGlobalStyle`
 }
 
 
-
-
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
@@ -30,12 +28,13 @@ const GlobalStyle = createGlobalStyle`
   font-size: 5.5rem;
   line-height: 1.05;
   letter-spacing: -0.5px;
-  margin-bottom: 3.2rem;
+  margin-bottom: 2rem;
   text-transform: capitalize; 
   color: var(--color-primary);
   z-index:10;
   box-shadow: 0 1.5rem 4rem rgba(#333, 0.7);
   transition: all 0.2s;
+  
 }
 
 .heading-secondary {
