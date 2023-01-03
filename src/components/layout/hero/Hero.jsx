@@ -7,6 +7,8 @@ import ImgFive from '../../../assets/img5.jpg';
 import ImgSix from '../../../assets/hero.png';
 import { Button } from '../../buttons/Button.styles.js';
 
+import './Hero.scss';
+
 const Hero = () => {
   return (
     <section className='section-hero'>
@@ -14,22 +16,31 @@ const Hero = () => {
         <div className='hero-text-box'>
           <h1
             className='heading-primary'
-            style={{ margin: '0 0 0 -2px', color: '#fd736c' }}
+            style={{
+              margin: '-15px 0 0 0',
+              color: '#fd736c',
+              fontSize: '6rem',
+            }}
           >
-            BOOKING A
+            PHOTOLOOP
           </h1>
           <h1 className='heading-primary'>
-            {' '}
-            PHOTOGRAPHER MADE SIMPLE AS SMILING FOR A PHOTO
+            your go-to premium local photograper finder app
+            {/* finding a premium local photogapher made simple */}
           </h1>
 
           <p className='hero-description'>
-            Start today and save time scheduling services for your most
-            cherished
+            {/* A Photography App made by photographers,for seeker who love
+            capturing momments. Start today and save time scheduling services
+            for your most cherished. */}
+            Capture your unique stories and experiences in time through visual
+            storytelling for your present loved ones and future generations to
+            come.
           </p>
           <Button primary href='cta'>
             Book Today
           </Button>
+          <Button href='cta'>Learn More</Button>
         </div>
         <div className='grid-gallery'>
           <img

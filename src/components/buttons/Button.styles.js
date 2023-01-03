@@ -12,8 +12,10 @@ export const Button = styled.button`
     cursor: pointer;
     font-family: inherit;
 
-    background: ${(props) => (props.primary ? '#223142' : 'white')};
-    color: ${(props) => (props.primary ? 'white' : '#354c44')};
+    margin-right: 5px;
+
+    background: ${(props) => (props.primary ? '#223142' : '#fd736c')};
+    color: ${(props) => (props.primary ? 'white' : 'white')};
     transition: all 0.3s;
 
     &:hover {
