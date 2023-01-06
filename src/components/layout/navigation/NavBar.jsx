@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link, Button } from '../../buttons/Button.styles.js';
 import { NavButton } from './NavBar.styles.js';
 
 const NavBar = () => {
@@ -8,6 +7,16 @@ const NavBar = () => {
       <a href='#'>
         <img src='' alt='' />
       </a>
+      {/* <h1
+        className='heading-primary'
+        style={{
+          margin: '-15px 0 0 0',
+          color: '#fd736c',
+          fontSize: '6rem',
+        }}
+      >
+        PHOTOLOOP
+      </h1> */}
 
       <nav className='main-nav'>
         <ul className='main-nav-list'>

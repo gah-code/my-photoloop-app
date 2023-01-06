@@ -25,7 +25,7 @@ const GlobalStyle = createGlobalStyle`
 
 .heading-primary {
   font-weight: 700;
-  font-size: 5rem;
+  font-size: 5.5rem;
   line-height: 1.05;
   letter-spacing: -0.5px;
   margin-bottom: 2rem;
@@ -48,6 +48,10 @@ const GlobalStyle = createGlobalStyle`
 .heading-tertiary {
   font-size: 2.5rem;
   text-transform: capitalize;
+}
+
+.center {
+  text-align: center ;
 }
 
 

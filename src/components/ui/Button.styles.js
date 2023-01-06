@@ -29,23 +29,3 @@ export const Button = styled.button`
     }
   }
 `;
-
-export const Link = styled.a`
-   {
-    &:link,
-    &:visited {
-      display: inline-block;
-      text-decoration: none;
-      color: #333;
-      font-weight: 500;
-      font-size: 1.6rem;
-      transition: all 0.2s;
-      padding: 1.6rem 3.2rem;
-      border-radius: 10rem;
-    }
-    &:hover,
-    &:active {
-      color: var(--color-primary);
-    }
-  }
-`;

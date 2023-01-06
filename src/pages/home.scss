@@ -13,11 +13,11 @@ header {
   // background-color: var(--color-background-shade);
   background-image: linear-gradient(
       to right bottom,
-      rgba(#fbeab3, 1.2),
-      rgba(#fceec2, 0.8)
+      rgba(#fff5d6, 0.5),
+      rgba(#fceec2, 0.2)
     ),
-    url(./assets/abstract.png);
-  background-size: contain;
+    url(./assets/header-bg.jpg);
+  background-size: cover;
   background-position: start;
   background-repeat: no-repeat;
 }

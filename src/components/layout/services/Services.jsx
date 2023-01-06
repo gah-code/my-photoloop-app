@@ -6,6 +6,11 @@ import './Services.scss';
 const Services = () => {
   return (
     <>
+      <div className='container'>
+        <span className='subheading'>Services</span>
+        <h2 className='heading-secondary'>What we do</h2>
+      </div>
+
       <div className='container grid grid__2-cols'>
         <div className='step-text-box'>
           <p className='step-number'>01</p>
