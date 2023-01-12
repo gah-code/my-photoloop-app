@@ -35,6 +35,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html {
@@ -52,6 +54,7 @@ body {
   margin: 0;
   padding: 0;
   font-weight: 500;
+  line-height: 1.5;
   color: #333;
   overflow: hidden;
   background: var(--color-background);
@@ -67,6 +70,7 @@ img {
   max-width: 100%;
 }
 
+/* Prevent Text Overflow */
 p,
 li,
 h1,
@@ -152,4 +156,88 @@ textarea {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.heading-primary {
+  font-weight: 700;
+  font-size: 5.5rem;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+  text-transform: capitalize;
+  color: var(--color-primary);
+  z-index: 10;
+  box-shadow: 0 1.5rem 4rem rgba(#333, 0.7);
+  transition: all 0.2s;
+}
+
+.heading-secondary {
+  font-size: 4.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+  /* &--center {
+    color: var(--color-primary);
+    font-size: 3.5rem;
+    text-align: center;
+    line-height: 1.05;
+  } */
+}
+
+.heading-secondary--center {
+  color: var(--color-primary);
+  font-size: 3.5rem;
+  text-align: center;
+  line-height: 1.05;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  margin-bottom: 3.5rem;
+  text-transform: capitalize;
+}
+
+.center {
+  text-align: center;
+}
+
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+
+  .heading-primary {
+    font-size: 4.5rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
 }

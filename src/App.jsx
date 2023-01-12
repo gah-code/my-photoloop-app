@@ -5,7 +5,7 @@ import Hero from './components/layout/hero/Hero';
 import Slogan from './components/ui/Slogan';
 import Packages from './components/layout/packages/Packages';
 import Services from './components/layout/services/Services';
-
+import Footer from './components/layout/footer/Footer';
 import './App.scss';
 
 function App() {
@@ -21,12 +21,13 @@ function App() {
         <Packages />
       </section>
 
-      <section className='section-sessions'>
+      {/* <section className='section-sessions'>
         <div className='container'>
           <span className='subheading'>Services</span>
           <h2 className='heading-secondary'>Crafted sessions</h2>
         </div>
-      </section>
+      </section> */}
+      <Footer />
     </Fragment>
   );
 }

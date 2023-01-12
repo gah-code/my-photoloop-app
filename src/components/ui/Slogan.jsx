@@ -2,7 +2,7 @@ import React from 'react';
 
 const Slogan = () => {
   return (
-    <div style={{ padding: '12.5rem 0' }}>
+    <div style={{ padding: '10.5rem 0 15rem 0', background: '#fceec2' }}>
       <div className='container center'>
         <span className='subheading'>
           "We are a photography company at the core

@@ -1,14 +1,20 @@
+.section-services {
+  // padding: 9.6rem 0;
+  padding: 4.8rem 0 9.6rem 0;
+  background-color: var(--color-background-shade);
+}
+
 .step-number {
   font-size: 8.6rem;
   font-weight: 600;
-  color: #ddd;
+  color: var(--color-primary);
   margin-bottom: 1.2rem;
 }
 
-.step-description {
-  font-size: 1.8rem;
-  line-height: 1.8;
-}
+// .step-description {
+//   font-size: 1.8rem;
+//   line-height: 1.8;
+// }
 
 .description {
   font-size: 1.9rem;
