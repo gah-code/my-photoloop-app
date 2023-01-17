@@ -8,6 +8,10 @@ import Services from './components/layout/services/Services';
 import Gallery from './components/layout/gallery/Gallery';
 import Packages from './components/layout/packages/Packages';
 
+///// Components
+
+import Accordion from './components/Accordion';
+
 import Footer from './components/layout/footer/Footer';
 import './App.scss';
 
@@ -20,7 +24,7 @@ function App() {
       <Gallery />
       <Services />
       <Packages />
-
+      <Accordion />
       {/* <section className='section-gallery'>
         <Packages />
       </section> */}
