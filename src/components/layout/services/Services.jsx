@@ -1,7 +1,16 @@
-import React from 'react';
+import ServiceItem from './ServiceItem';
 import Img from '../../../assets/FamilySection.png';
 
 import './Services.scss';
+
+const DUMMY_PRODUCTS = [
+  {
+    id: 'test',
+    title: '',
+    description:
+      'Users can select their preferred time, location, photographer,style and our API will craft a plan that matches best with your selected preferences.',
+  },
+];
 
 const Services = () => {
   return (
@@ -11,7 +20,7 @@ const Services = () => {
         <h2 className='heading-secondary'>What we do</h2>
       </div>
 
-      <div className='container grid grid__2-cols'>
+      <div className='container grid grid--2-cols'>
         {/* Grid One */}
         <div className='step-text-box'>
           <p className='step-number'></p>

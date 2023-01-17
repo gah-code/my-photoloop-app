@@ -4,7 +4,8 @@
 
 - Hero
 - Slogan
-- About + how it works
+- About
+- How it works
 - Summer Services
 - Gallery
 <!-- - How it works -->
@@ -13,3 +14,5 @@
 - Pricing + features **comming soon**
 <!-- - CTA -->
 - Footer
+
+- finding a premium local photogapher made simple
