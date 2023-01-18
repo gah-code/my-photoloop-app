@@ -9,12 +9,12 @@
 
 .pricing-plan--starter {
   justify-self: end;
-  border: 2px solid #fdf2e9;
+  border: 2px solid var(--color-primary);
   padding: 4.6rem;
 }
 
 .pricing-plan--complete {
-  background-color: #fdf2e9;
+  background-color: var(--color-grey-light-2);
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
@@ -30,7 +30,7 @@
   font-size: 1.4rem;
   font-weight: 700;
   color: #333;
-  background-color: #ffd43b;
+  background-color: var(--color-grey-light-2);
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
 }
@@ -41,7 +41,7 @@
 }
 
 .plan-name {
-  color: #cf711f;
+  color: var(--color-primary);
   font-weight: 600;
   font-size: 2rem;
   text-transform: uppercase;
@@ -97,7 +97,7 @@
 .list-icon {
   width: 3rem;
   height: 3rem;
-  color: #e67e22;
+  color: var(--color-primary);
 }
 
 *:focus {
@@ -105,4 +105,43 @@
   /* outline: 4px dotted #e67e22; */
   /* outline-offset: 8px; */
   box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  /* Put transition on original "state" */
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: var(--color-secondary);
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(rgb(122, 119, 119), 0.6);
+
+  &::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+  }
 }
