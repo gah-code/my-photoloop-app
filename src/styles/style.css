@@ -2,12 +2,13 @@
 
 :root {
   /* Colors */
-  --color-background: rgb(255, 255, 255);
+  --color-background: rgba(254, 239, 199, 0.943);
   --color-background-shade: #fceec2;
   --color-primary: #223142;
   --color-primary-tint: #515e6d;
   --color-secondary: #84a598;
   --color-tertiary: #f7c278;
+  --clr-brown: #bf7b3f;
   --color-btn: #fd736c;
   --color-btn-hover: #fd817b;
   --color-grey-light-1: #f7f7f7;
