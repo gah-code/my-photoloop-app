@@ -15,7 +15,9 @@ const Gallery = () => {
           <li>
             <img src={ImgThree} alt='' />
           </li>
-          <li>test</li>
+          <li>
+            <img src={ImgThree} alt='' />
+          </li>
           <li>test</li>
           <li>test</li>
           <li>test</li>

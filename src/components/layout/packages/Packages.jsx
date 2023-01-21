@@ -13,24 +13,24 @@ const Packages = () => {
       <div className='container grid grid--2-cols'>
         <div className='pricing-plan pricing-plan--starter'>
           <header className='plan-header'>
-            <p className='plan-name'>Starter</p>
+            <p className='plan-name'>Primary</p>
             <p className='plan-price'>
-              <span>$</span>399
+              <span>$</span>230
             </p>
-            <p className='plan-text'>per month. That's just $13 per meal!</p>
+            <p className='plan-text'>comming soon</p>
           </header>
           <ul className='list'>
             <li className='list-item'>
               <ion-icon class='list-icon' name='checkmark-outline'></ion-icon>
-              <span>1 meal per day</span>
+              <span>1</span>
             </li>
             <li className='list-item'>
               <ion-icon class='list-icon' name='checkmark-outline'></ion-icon>
-              <span>Order from 11am to 9pm</span>
+              <span>2</span>
             </li>
             <li className='list-item'>
               <ion-icon class='list-icon' name='checkmark-outline'></ion-icon>
-              <span>Delivery is free</span>
+              <span>3</span>
             </li>
             <li className='list-item'>
               <ion-icon class='list-icon' name='close-outline'></ion-icon>
@@ -38,7 +38,7 @@ const Packages = () => {
           </ul>
           <div className='plan-sing-up'>
             <a href='#' className='btn btn--full'>
-              Start eating well
+              Start
             </a>
           </div>
         </div>
@@ -46,37 +46,76 @@ const Packages = () => {
           <header className='plan-header'>
             <p className='plan-name'>Complete</p>
             <p className='plan-price'>
-              <span>$</span>649
+              <span>$</span>280
             </p>
-            <p className='plan-text'>per month. That's just $11 per meal!</p>
+            <p className='plan-text'>comming soon</p>
           </header>
           <ul className='list'>
             <li className='list-item'>
               <ion-icon class='list-icon' name='checkmark-outline'></ion-icon>
               <span>
-                <strong>2 meals</strong> per day
+                <strong>comming</strong> soon
               </span>
             </li>
             <li className='list-item'>
               <ion-icon class='list-icon' name='checkmark-outline'></ion-icon>
               <span>
-                Order <strong>24/7</strong>
+                <strong>comming</strong> soon
               </span>
             </li>
             <li className='list-item'>
               <ion-icon class='list-icon' name='checkmark-outline'></ion-icon>
-              <span>Delivery is free</span>
+              <strong>comming</strong> soon
             </li>
             <li className='list-item'>
               <ion-icon class='list-icon' name='checkmark-outline'></ion-icon>
-              <span>Get access to latest recipes</span>
+              <strong>comming</strong> soon
             </li>
           </ul>
           <div className='plan-sing-up'>
             <a href='#' className='btn btn--full'>
-              Start eating well
+              comming soon
             </a>
           </div>
+        </div>
+      </div>
+
+      <div class='container grid'>
+        <aside class='plan-details'>Prices comming soon!</aside>
+      </div>
+
+      <div class='container grid grid--4-cols'>
+        <div class='feature'>
+          <ion-icon class='feature-icon' name='infinite-outline'></ion-icon>
+          <p class='feature-title'>Details</p>
+          <p class='feature-text'>
+            Our subscriptions cover 365 days per year, even including major
+            holidays.
+          </p>
+        </div>
+        <div class='feature'>
+          <ion-icon class='feature-icon' name='nutrition-outline'></ion-icon>
+          <p class='feature-title'>Details</p>
+          <p class='feature-text'>
+            Our cooks only use local, fresh, and organic products to prepare
+            your meals.
+          </p>
+        </div>
+        <div class='feature'>
+          <ion-icon class='feature-icon' name='leaf-outline'></ion-icon>
+          <p class='feature-title'>Details</p>
+          <p class='feature-text'>
+            All our partners only use reusable containers to package all your
+            meals.
+          </p>
+        </div>
+        <div class='feature'>
+          <ion-icon class='feature-icon' name='pause-outline'></ion-icon>
+          <p class='feature-title'>Details</p>
+          <p class='feature-text'>
+            Going on vacation? Just pause your subscription, and we refund
+            unused days.
+          </p>
         </div>
       </div>
     </section>

@@ -28,9 +28,9 @@ const NavBar = () => {
           </li>
 
           <li>
-            <NavButton as='a' variant='secondary' className='' href='#cta'>
+            {/* <NavButton as='a' variant='secondary' className='' href='#cta'>
               Book Today
-            </NavButton>
+            </NavButton> */}
           </li>
         </ul>
       </nav>

@@ -1,7 +1,13 @@
 .section-services {
   // padding: 9.6rem 0;
-  padding: 4.8rem 0 9.6rem 0;
-  background-color: var(--color-background);
+  padding: 12.8rem 0 9.6rem 0;
+
+  background: rgb(255, 237, 182);
+  background: linear-gradient(
+    0deg,
+    rgba(254, 239, 199, 0.943) 22%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 .step-number {

@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
 import './styles/style.css';
 import GlobalStyle from './theme/globalStyles';
+
 import Hero from './components/layout/hero/Hero';
 import Slogan from './components/ui/Slogan';
-
 import Services from './components/layout/services/Services';
 import Gallery from './components/layout/gallery/Gallery';
 import Packages from './components/layout/packages/Packages';
@@ -19,6 +19,7 @@ function App() {
   return (
     <Fragment>
       <GlobalStyle />
+
       <Hero />
       <Slogan />
       <Gallery />
