@@ -20,6 +20,8 @@ const Hero = () => {
             Book Today
           </Button>
           <Button href='cta'>Learn More</Button>
+
+          <button className='testing'>Testing</button>
         </div>
         <div className='hero-gallery'>
           <img alt='Summer family photography highlights' src={ImgTwo} />

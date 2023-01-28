@@ -21,6 +21,33 @@
     font-weight: 600;
     padding: 0.5rem 0 5rem 0;
   }
+
+  .testing {
+    margin-top: 3rem;
+    border: none;
+    color: #ffff;
+    font-family: 'Coiny', sans-serif;
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 1.6rem 3.2rem;
+    font-weight: 600;
+    background-image: linear-gradient(
+      135deg,
+      #fd736cf7,
+      #fe726a,
+      #ff9b98,
+      #ffb6b3c6
+    );
+    // color: inherit;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(110%) rotate(-2deg);
+    }
+  }
 }
 
 .hero-gallery {
