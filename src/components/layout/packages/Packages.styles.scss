@@ -1,5 +1,6 @@
 .section-packages {
   padding: 9.6rem 0;
+  background-color: var(--color-btn-300);
 }
 
 .pricing-plan {
@@ -14,7 +15,7 @@
 }
 
 .pricing-plan--complete {
-  background-color: #ff8c866c;
+  background-color: #fdf2e9;
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
@@ -144,4 +145,26 @@
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
   }
+}
+
+.feature-icon {
+  color: var(--color-primary);
+  height: 3.2rem;
+  width: 3.2rem;
+  background-color: #fdf2e9;
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
 }

@@ -86,7 +86,7 @@ const Packages = () => {
 
       <div class='container grid grid--4-cols'>
         <div class='feature'>
-          <ion-icon class='feature-icon' name='infinite-outline'></ion-icon>
+          <ion-icon class='feature-icon' name='paw-outline'></ion-icon>
           <p class='feature-title'>Details</p>
           <p class='feature-text'>
             Our subscriptions cover 365 days per year, even including major
@@ -94,7 +94,7 @@ const Packages = () => {
           </p>
         </div>
         <div class='feature'>
-          <ion-icon class='feature-icon' name='nutrition-outline'></ion-icon>
+          <ion-icon class='feature-icon' name='sparkles-outline'></ion-icon>
           <p class='feature-title'>Details</p>
           <p class='feature-text'>
             Our cooks only use local, fresh, and organic products to prepare
@@ -102,7 +102,7 @@ const Packages = () => {
           </p>
         </div>
         <div class='feature'>
-          <ion-icon class='feature-icon' name='leaf-outline'></ion-icon>
+          <ion-icon class='feature-icon' name='camera-outline'></ion-icon>
           <p class='feature-title'>Details</p>
           <p class='feature-text'>
             All our partners only use reusable containers to package all your
@@ -110,7 +110,7 @@ const Packages = () => {
           </p>
         </div>
         <div class='feature'>
-          <ion-icon class='feature-icon' name='pause-outline'></ion-icon>
+          <ion-icon class='feature-icon' name='construct-outline'></ion-icon>
           <p class='feature-title'>Details</p>
           <p class='feature-text'>
             Going on vacation? Just pause your subscription, and we refund
