@@ -7,6 +7,7 @@ import Slogan from './components/ui/Slogan';
 import Services from './components/layout/services/Services';
 import Gallery from './components/layout/gallery/Gallery';
 import Packages from './components/layout/packages/Packages';
+import About from './components/layout/about/About';
 
 ///// Components
 
@@ -21,6 +22,8 @@ function App() {
       <GlobalStyle />
 
       <Hero />
+      <About />
+
       <Slogan />
       <Gallery />
       <Services />
