@@ -77,3 +77,20 @@
   box-shadow: 0 1.5rem 4rem rgba(#000, 0.15);
   z-index: 10;
 }
+
+@media (max-width: 59em) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 4rem 8rem;
+    gap: 6.4rem;
+  }
+
+  .box {
+    text-align: center;
+  }
+
+  .hero-gallery {
+    padding: 8rem 0;
+    width: 80%;
+  }
+}

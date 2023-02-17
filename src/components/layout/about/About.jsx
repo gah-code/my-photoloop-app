@@ -6,11 +6,6 @@ import './About.scss';
 const About = () => {
   return (
     <section className='section-about'>
-      <div className='container'>
-        <span className='subheading'>Services</span>
-        <h2 className='heading-secondary'>What we do</h2>
-      </div>
-
       <div className='container grid grid--2-cols'>
         {/* Grid One */}
         <div className='about-container'>

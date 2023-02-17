@@ -5,24 +5,11 @@
   display: flex;
   justify-content: space-between;
   padding: 1.8rem 1.8rem 5rem 1.8rem;
-  // background-color: var(--color-background-shade);
 }
 
 .section-hero {
   padding: 9.6rem 0;
-
-  background: rgb(255, 237, 182);
-
-  // background-color: var(--color-background-shade);
-  // background-image: linear-gradient(
-  //     to right bottom,
-  //     rgba(#fdf9ed, 0.5),
-  //     rgba(#fceec2, 0.2)
-  //   ),
-  //   url(./assets/header-bg.jpg);
-  // background-size: cover;
-  // background-position: start;
-  // background-repeat: no-repeat;
+  background: var(--clr-brown-400);
 }
 
 /**************************/

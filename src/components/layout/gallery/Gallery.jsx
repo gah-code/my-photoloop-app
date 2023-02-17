@@ -11,11 +11,11 @@ const Gallery = () => {
     <section className='section-gallery'>
       <div className='gallery'>
         <ul className='gallery__slider' ref={ref}>
-          <li className='gallery__slider-item'>test</li>
-          <li>
+          <li className='gallery__slider-item '>test</li>
+          <li className='smol-transitions zoom'>
             <img src={ImgThree} alt='' />
           </li>
-          <li>
+          <li className='smol-transitions zoom'>
             <img src={ImgThree} alt='' />
           </li>
           <li>test</li>

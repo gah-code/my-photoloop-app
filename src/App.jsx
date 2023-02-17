@@ -4,7 +4,7 @@ import GlobalStyle from './theme/globalStyles';
 
 import Hero from './components/layout/hero/Hero';
 import Slogan from './components/ui/Slogan';
-import Services from './components/layout/services/Services';
+// import Services from './components/layout/services/Services';
 import Gallery from './components/layout/gallery/Gallery';
 import Packages from './components/layout/packages/Packages';
 import About from './components/layout/about/About';
@@ -26,7 +26,7 @@ function App() {
 
       <Slogan />
       <Gallery />
-      <Services />
+      {/* <Services /> */}
       <Packages />
       <Accordion />
       {/* <section className='section-gallery'>

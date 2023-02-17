@@ -9,6 +9,10 @@
   --color-secondary: #84a598;
   --color-tertiary: #f7c278;
   --clr-brown: #bf7b3f;
+  --clr-brown-100: #c28550;
+  --clr-brown-200: #c59062;
+  --clr-brown-300: #be946e;
+  --clr-brown-400: #bf9b7b;
   --color-btn: #fd736c;
   --color-btn-hover: #fd817b;
 
@@ -292,5 +296,31 @@ textarea {
   html {
     /* 9px / 16px  */
     font-size: 56.25%;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 60%;
   }
 }
