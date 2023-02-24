@@ -20,10 +20,8 @@ function App() {
   return (
     <Fragment>
       <GlobalStyle />
-
       <Hero />
       <About />
-
       <Slogan />
       <Gallery />
       {/* <Services /> */}

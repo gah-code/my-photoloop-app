@@ -6,19 +6,27 @@
   grid-template-columns: 1.5fr 1fr;
   gap: 9.6rem;
   align-items: center;
-  height: 75vh;
+  height: 70vh;
+  position: relative;
 
   & .box {
-    z-index: 10;
+    // z-index: 10;
     border-radius: 2px;
     transition: all 0.2s;
-    padding: 0 1.5rem;
   }
 
+  span {
+    font-family: 'Lumiera Handwriting';
+    text-transform: lowercase;
+    font-size: 9rem;
+    color: #f57681;
+    font-weight: 800;
+    letter-spacing: 2px;
+  }
   & .description {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     line-height: 1.6;
-    font-weight: 600;
+    font-weight: 500;
     padding: 0.5rem 0 5rem 0;
   }
 
@@ -81,12 +89,12 @@
 @media (max-width: 59em) {
   .hero {
     grid-template-columns: 1fr;
-    padding: 4rem 8rem;
-    gap: 6.4rem;
+    padding: 4rem 3rem;
+    gap: 6.2rem;
   }
 
   .box {
-    text-align: center;
+    text-align: left;
   }
 
   .hero-gallery {

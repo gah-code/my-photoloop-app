@@ -9,9 +9,8 @@ const Hero = () => {
     <section className='section-hero'>
       <div className='hero'>
         <div className='box'>
-          <h1 className='heading-primary'>
-            your go-to premium local photograper finder app
-          </h1>
+          <span className='hero-header'>your go-to</span>
+          <h1 className='heading-primary'>photograper finder app</h1>
           <p className='description'>
             Capture your unique stories and experiences in time through visual
             storytelling for your loved ones and future generations to come.
@@ -19,7 +18,7 @@ const Hero = () => {
           <Button primary href='cta'>
             Book Today
           </Button>
-          <Button href='cta'>Learn More</Button>
+          {/* <Button href='cta'>Learn More</Button> */}
 
           <button className='testing'>Testing</button>
         </div>

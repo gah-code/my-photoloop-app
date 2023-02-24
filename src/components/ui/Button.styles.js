@@ -14,7 +14,7 @@ export const Button = styled.button`
 
     margin-right: 5px;
 
-    background: ${(props) => (props.primary ? '#223142' : '#fd736c')};
+    background: ${(props) => (props.primary ? '#B8D8BA' : '#fd736c')};
     color: ${(props) => (props.primary ? 'white' : 'white')};
     transition: all 0.3s;
 
