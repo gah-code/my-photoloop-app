@@ -4,6 +4,25 @@ import { useRef } from 'react';
 import './Accordion.styles.scss';
 
 const Accordion = () => {
+  const form = document.querySelector('form');
+
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    const formData = new FormData(form);
+    const formUrl = form.getAttribute('action');
+
+    fetch(formUrl, {
+      method: 'POST',
+      body: formData,
+    })
+      .then((response) => {
+        console.log('Form submitted successfully!', response);
+      })
+      .catch((error) => {
+        console.error('Error submitting form:', error);
+      });
+  });
   return (
     <>
       <div className='container'>
