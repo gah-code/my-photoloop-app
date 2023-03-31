@@ -33,6 +33,7 @@ function ContactForm() {
         method='POST'
         data-netlify='true'
         onSubmit={handleSubmit}
+        form-name='contact'
       >
         <input type='hidden' name='form-name' value='contact' />
         <label>
