@@ -8,6 +8,7 @@ import Slogan from './components/ui/Slogan';
 import Gallery from './components/layout/gallery/Gallery';
 import Packages from './components/layout/packages/Packages';
 import About from './components/layout/about/About';
+import ContactForm from './components/ContactForm';
 
 ///// Components
 
@@ -27,6 +28,7 @@ function App() {
       {/* <Services /> */}
       <Packages />
       <Accordion />
+      <ContactForm />
       {/* <section className='section-gallery'>
         <Packages />
       </section> */}
