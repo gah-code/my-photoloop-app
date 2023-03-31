@@ -6,6 +6,25 @@ import './Accordion.styles.scss';
 const Accordion = () => {
   return (
     <>
+      <div className='container'>
+        <form
+          name='contact'
+          method='POST'
+          data-netlify='true'
+          action='/success'
+        >
+          <input type='hidden' name='form-name' value='contact' />
+          <input type='text' name='name' placeholder='Your name' required />
+          <input
+            type='email'
+            name='email'
+            placeholder='Your email address'
+            required
+          />
+          <textarea name='message' placeholder='Your message'></textarea>
+          <button type='submit'>Send</button>
+        </form>
+      </div>
       <div class='accordion'>
         <div class='item'>
           <p class='number'>01</p>
